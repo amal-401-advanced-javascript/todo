@@ -40,7 +40,7 @@ function ToDo() {
       <Container>
         <Row className="justify-content-md-center">
           <Col><h2>
-          There are {todo.filter(item => !item.complete).length} Items To Complete
+          To Do List Manager ({todo.filter(item => !item.complete).length})
         </h2></Col>
         </Row>
         <Row className="todo">
