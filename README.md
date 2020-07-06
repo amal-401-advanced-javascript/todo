@@ -7,7 +7,8 @@
   - Amal Almomani
 
 # Links and Resources
-  - submission PR
+  - submission PR 
+    - [](https://github.com/amal-401-advanced-javascript/todo/pull/1)
   - ci/cd (GitHub Actions)
 
 # Setup
