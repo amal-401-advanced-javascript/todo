@@ -8,7 +8,7 @@
 
 # Links and Resources
   - submission PR 
-    - [](https://github.com/amal-401-advanced-javascript/todo/pull/1)
+    - [](https://github.com/amal-401-advanced-javascript/todo/pull/3)
   - ci/cd (GitHub Actions)
 
 # Setup
