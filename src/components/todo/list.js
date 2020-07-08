@@ -16,7 +16,7 @@ function TodoList(props) {
         <Container className={` complete-${item.complete}-${toggleContext.status} li`} key={item._id}>
           <Row className="firstRow">
             <Col key={item._id} className={`complete-${item.complete.toString()}`} onClick={() => props.handleComplete(item._id)}>
-              {item.complete}
+            {`${item.complete?'complete':'pending'}`}
             </Col>
             <Col> {item.assignee} </Col>
             <Col className="text-end">

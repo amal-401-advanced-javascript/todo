@@ -29,7 +29,7 @@ const ToDo = () => {
         <Row className="justify-content-md-center">
           <Col>
           <h2>
-            There are {list.filter(item => item.complete == 'pending').length} Items To Complete
+            There are {list.filter(item => !item.complete).length} Items To Complete
         </h2>
         </Col>
         <Col>  <ToggleHideShow /> </Col>

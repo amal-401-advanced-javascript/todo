@@ -29,7 +29,7 @@ function ToDo() {
     if (item._id) {
       item.complete = !item.complete;
       let list = todo.map(listItem => listItem._id === item._id ? item : listItem);
-      setTodo(list);
+      setTodo(...list);
     }
   };
   return (

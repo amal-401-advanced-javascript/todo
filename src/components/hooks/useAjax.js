@@ -7,7 +7,7 @@ function useAjax(){
 
     const _addItem = (item) => {
       item.due = new Date();
-      fetch({
+      axios({
         url:todoAPI,
         method: 'post',
         mode: 'cors',
@@ -20,7 +20,7 @@ function useAjax(){
             })
         .catch(console.error);
     };
-  
+   
   
     const _toggleComplete = id => {
   
@@ -28,7 +28,7 @@ function useAjax(){
   
       if (item._id) {
   
-        item.complete = item.complete === 'complete' ? 'pending' : 'complete';
+        item.complete = !item.complete; 
   
         let url = `${todoAPI}/${id}`;
   
