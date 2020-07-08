@@ -7,7 +7,7 @@ function useAjax(){
 
     const _addItem = (item) => {
       item.due = new Date();
-      axios({
+      fetch({
         url:todoAPI,
         method: 'post',
         mode: 'cors',
@@ -20,6 +20,7 @@ function useAjax(){
             })
         .catch(console.error);
     };
+  
   
     const _toggleComplete = id => {
   
