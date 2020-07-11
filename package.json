@@ -1,7 +1,7 @@
 {
   "name": "demo-context-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "# LAB    - Class 31",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -33,5 +33,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amal-401-advanced-javascript/todo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amal-401-advanced-javascript/todo/issues"
+  },
+  "homepage": "https://github.com/amal-401-advanced-javascript/todo/"
 }
